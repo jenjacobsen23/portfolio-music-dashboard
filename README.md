@@ -1,6 +1,6 @@
-# Portfolio Dashboard
+# Music Dashboard
 
-A modern, responsive portfolio dashboard built with Next.js 15, TypeScript, and Tailwind CSS. This application provides a beautiful and interactive way to showcase your portfolio with real-time data integration.
+A modern, responsive music dashboard built with Next.js 15, TypeScript, and Tailwind CSS. This application provides a beautiful and interactive way to showcase your music statistics with real-time data integration.
 
 ## 🚀 Features
 
@@ -8,10 +8,7 @@ A modern, responsive portfolio dashboard built with Next.js 15, TypeScript, and 
 - **Beautiful UI**: Utilizes Shadcn UI components and Radix UI primitives
 - **Responsive Design**: Mobile-first approach with adaptive layouts
 - **Dark Mode**: Built-in dark mode support with next-themes
-- **Authentication**: Secure authentication with NextAuth.js
 - **Data Visualization**: Interactive charts and graphs with Recharts
-- **Spotify Integration**: Real-time Spotify data display
-- **Performance Optimized**: Server-side rendering and optimized assets
 
 ## 🛠️ Tech Stack
 
@@ -19,10 +16,7 @@ A modern, responsive portfolio dashboard built with Next.js 15, TypeScript, and 
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **UI Components**: Shadcn UI, Radix UI
-- **Authentication**: NextAuth.js
 - **Data Visualization**: Recharts
-- **State Management**: React Hooks
-- **API Integration**: Spotify Web API
 
 ## 📦 Installation
 
