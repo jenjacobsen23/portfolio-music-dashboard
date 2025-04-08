@@ -43,20 +43,6 @@ yarn install
 pnpm install
 ```
 
-3. Set up environment variables:
-
-Create a `.env.local` file in the root directory with the following variables:
-
-```env
-# Authentication
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=your-secret-key
-
-# Spotify API
-SPOTIFY_CLIENT_ID=your-spotify-client-id
-SPOTIFY_CLIENT_SECRET=your-spotify-client-secret
-```
-
 4. Run the development server:
 
 ```bash
