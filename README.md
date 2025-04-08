@@ -45,11 +45,17 @@ pnpm install
 
 3. Set up environment variables:
 
-```bash
-cp .env.local.example .env.local
-```
+Create a `.env.local` file in the root directory with the following variables:
 
-Fill in your environment variables in `.env.local`
+```env
+# Authentication
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=your-secret-key
+
+# Spotify API
+SPOTIFY_CLIENT_ID=your-spotify-client-id
+SPOTIFY_CLIENT_SECRET=your-spotify-client-secret
+```
 
 4. Run the development server:
 
@@ -63,20 +69,6 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 🔧 Environment Variables
-
-Create a `.env.local` file with the following variables:
-
-```env
-# Authentication
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=your-secret-key
-
-# Spotify API
-SPOTIFY_CLIENT_ID=your-spotify-client-id
-SPOTIFY_CLIENT_SECRET=your-spotify-client-secret
-```
-
 ## 📁 Project Structure
 
 ```
@@ -84,9 +76,9 @@ portfolio-dashboard/
 ├── app/                 # Next.js app directory
 ├── components/          # Reusable UI components
 ├── lib/                 # Utility functions and configurations
-├── public/             # Static assets
-├── types/              # TypeScript type definitions
-└── styles/             # Global styles and Tailwind config
+├── public/              # Static assets
+├── types/               # TypeScript type definitions
+└── styles/              # Global styles and Tailwind config
 ```
 
 ## 🚀 Deployment
